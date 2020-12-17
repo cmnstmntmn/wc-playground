@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "web-test-runner --coverage",
+    "test:watch": "web-test-runner --watch",
+    "start": "web-dev-server --app-index index.html --node-resolve --open --watch"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^2.0.0",
+    "@web/dev-server": "^0.0.12",
+    "@web/test-runner": "^0.7.41"
+  },
+  "name": "wc-playground",
+  "version": "0.0.0",
+  "description": "Webcomponent wc-playground following open-wc recommendations",
+  "author": "wc-playground",
+  "license": "MIT",
+  "dependencies": {
+    "flyd": "^0.2.8",
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0"
+  }
+}
