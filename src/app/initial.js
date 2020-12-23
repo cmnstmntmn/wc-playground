@@ -2,7 +2,7 @@ export const Initial = async () => {
     const initial = {
       token: null,
       settings: {
-        showDebug: false
+        showDebug: true
       }
     }
 
