@@ -2,7 +2,7 @@
   "scripts": {
     "test": "web-test-runner --coverage",
     "test:watch": "web-test-runner --watch",
-    "start": "web-dev-server --app-index index.html --node-resolve --open --watch"
+    "start": "web-dev-server --app-index index.html --node-resolve -p 80 -h 0.0.0.0"
   },
   "devDependencies": {
     "@open-wc/testing": "^2.0.0",
