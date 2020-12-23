@@ -1,6 +1,6 @@
-// import meiosis from "meiosis-setup/mergerino";
+import meiosis from "meiosis-setup/mergerino/index.js";
 import { createApp } from "./app/index.js"
-import { Loading } from "./components/loading"
+import { Loading } from "./components/loading/index.js"
 
 const update = flyd;
 const merge = mergerino;
@@ -13,7 +13,7 @@ createApp()
     .then(app => {
         const componentElemName = "wc-playground";
 
-        const {states, actions} = meiosis.setup.mergerino({
+        const {states, actions} = meiosis({
             stream: update,
             merge,
             app,
