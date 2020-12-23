@@ -1,5 +1,5 @@
-import {Initial} from "./initial.js";
-import {Actions} from "./actions.js";
+import {Initial} from "./initial";
+import {Actions} from "./actions";
 
 export const login = {
     Initial,

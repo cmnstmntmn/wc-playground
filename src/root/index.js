@@ -1,1 +1,1 @@
-export { Root } from "./view.js";
+export { Root } from "./view";

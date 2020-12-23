@@ -1,7 +1,7 @@
-import {Initial} from "./initial.js";
-import {Actions} from "./actions.js";
-import {Root} from "../root/index.js";
-import {login} from "../pages/login/index.js"
+import {Initial} from "./initial";
+import {Actions} from "./actions";
+import {Root} from "../root";
+import {login} from "../pages/login"
 
 export const createApp = () =>
   Initial().then(initial => ({

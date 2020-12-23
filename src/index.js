@@ -1,5 +1,5 @@
-import { createApp } from "./app/index.js"
-import { Loading } from "./components/loading/index.js"
+import { createApp } from "./app"
+import { Loading } from "./components/loading"
 
 const update = flyd;
 const merge = mergerino;
