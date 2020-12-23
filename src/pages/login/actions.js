@@ -1,4 +1,4 @@
-import {api} from '../../util';
+import {api} from '../../util.js';
 
 export const Actions = update => ({
     setLogin: (id, value) => update({ login: { [id]: value } }),

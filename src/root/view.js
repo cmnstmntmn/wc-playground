@@ -1,8 +1,8 @@
 import { LitElement, html, css } from "lit-element";
 import {styles} from "./styles.js";
-import {Login} from "../pages/login"
-import {Header} from "../components/header"
-import {Footer} from "../components/footer"
+import {Login} from "../pages/login.js"
+import {Header} from "../components/header.js"
+import {Footer} from "../components/footer.js"
 
 export const Root = ({ initial, actions }) =>
   class extends LitElement {

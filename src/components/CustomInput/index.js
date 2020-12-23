@@ -1,6 +1,6 @@
 import { html, css } from "lit-element";
 import { LionInput } from '@lion/input';
-import { styles } from '../../root/styles';
+import { styles } from '../../root/styles.js';
 
 export class CustomLionInput extends LionInput {
     static get properties() {

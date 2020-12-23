@@ -1,6 +1,6 @@
 import { html, css } from "lit-element";
 import { LionCheckbox } from '@lion/checkbox-group';
-import { styles } from '../../root/styles';
+import { styles } from '../../root/styles.js';
 
 export class CustomLionCheckbox extends LionCheckbox {
     static get properties() {
