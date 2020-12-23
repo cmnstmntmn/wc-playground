@@ -1,4 +1,4 @@
-import meiosis from "meiosis-setup/mergerino/index.js";
+import meiosis from "../../node_modules/meiosis-setup/mergerino/index.js";
 import { createApp } from "./app/index.js"
 import { Loading } from "./components/loading/index.js"
 
